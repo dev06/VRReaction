@@ -1,0 +1,12 @@
+Sign Post: 1 | Time:  7.761264
+Sign Post: 2 | Time:  6.188982
+Sign Post: 3 | Time:  10.22825
+Sign Post: 4 | Time:  8.032849
+Sign Post: 5 | Time:  9.618013
+Sign Post: 6 | Time:  8.804588
+Sign Post: 7 | Time:  8.924118
+Sign Post: 8 | Time:  7.610721
+Sign Post: 9 | Time:  6.851135
+Sign Post: 10 | Time:  4.932467
+Total Time: 78.95238
+Average Time: 7.895238
