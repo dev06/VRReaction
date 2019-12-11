@@ -5,10 +5,10 @@
       "app_key": "application.generated.unity.vrreaction.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "E:\\Unity\\Github\\New Unity Project\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "S:\\Unity Projects\\VRReaction\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
-          "name": "New Unity Project [Testing]"
+          "name": "VR Reaction (Oculus) [Testing]"
         }
       }
     }

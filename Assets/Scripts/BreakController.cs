@@ -11,6 +11,12 @@ public class BreakController : MonoBehaviour
 
     private PlayerPackage _playerPackage;
     private SceneType _lastSceneLoaded;
+
+    [Header("UI Panel Fields")]
+    public Canvas canvas;
+    public Camera viveCameraEye;
+    public Camera oculusCameraEye;
+
     void Start()
     {
         _lastSceneLoaded = (SceneType)PlayerPackage.LastScene;
@@ -18,10 +24,12 @@ public class BreakController : MonoBehaviour
         {
             StartCoroutine("IStartTimer", _timeLeft);
         }
+
     }
 
     void Update()
     {
+        canvas.worldCamera = _playerPackage.appSettings.deviceType == DeviceType.Oculus ? oculusCameraEye : viveCameraEye;
         _lastSceneLoaded = (SceneType)PlayerPackage.LastScene;
         //if (_lastSceneLoaded == SceneType.Positive)
         //{
